@@ -1,11 +1,11 @@
 import React from 'react';
 import 'react-native-gesture-handler';
 
-import {createApolloClient} from './src/services/apollo';
+import {createClient} from './src/services/yelp';
 import {Container} from './src/screens/Container';
 import {ApolloProvider} from '@apollo/client';
 
-const apolloClient = createApolloClient();
+const apolloClient = createClient();
 
 const App = () => {
   return (

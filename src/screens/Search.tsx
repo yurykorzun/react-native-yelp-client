@@ -6,7 +6,7 @@ import {StyleSheet, View} from 'react-native';
 import {
   useYelpSearchCoordinates,
   useYelpSearchLocation,
-} from '../services/apollo';
+} from '../services/yelp';
 import getCategories from '../data/Categories';
 import Geocoder from 'react-native-geocoding';
 import SearchBar from '../components/SearchBar';
