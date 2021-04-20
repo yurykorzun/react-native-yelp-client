@@ -22,6 +22,7 @@ Demo React Native app using Yelp GraphQL API
 
 ## TODO
 - Fix UI and layout issues, apply Yelp's color theme
+- Fix multiselect filter
 - Add more filters
 - Add more information to the Details screen, including reviews
 - Implement paged loading of results in the FlatList
