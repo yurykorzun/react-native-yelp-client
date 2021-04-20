@@ -18,7 +18,8 @@ const SearchBar = ({
     if (!showCurrentLocation) {
       locationInputRef.current?.focus();
     }
-  }, [showCurrentLocation, locationInputRef]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showCurrentLocation]);
 
   return (
     <View style={localStyle.container}>
@@ -44,7 +45,9 @@ const SearchBar = ({
                 <Icon name="map-marker" size={25} color="#00F" />
               </View>
               <View style={localStyle.locationLabel}>
-                <Text style={localStyle.textLocation}>{'Current location'}</Text>
+                <Text style={localStyle.textLocation}>
+                  {'Current location'}
+                </Text>
               </View>
             </View>
           </Pressable>
