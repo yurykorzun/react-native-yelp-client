@@ -21,6 +21,7 @@ React Native app using Yelp GraphQL API
 9. Run `npx react-native run-android` or  `npx react-native run-ios`
 
 ## TODO
+- Fix Typescript errors and warnings
 - Fix UI and layout issues, apply Yelp's color theme
 - Fix multiselect filter
 - Add more filters
