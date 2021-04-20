@@ -1,12 +1,12 @@
 # React Native Yelp Client
-Demo React Native app using Yelp GraphQL API 
+React Native app using Yelp GraphQL API 
 
 ## Description
 - Search yelp graph api using key words
 - Search based on current location or location based on geocoding search
 - Filter by category to narrow results
 - Results limited to top 10 results
-- Toggle between the list of results and the map view
+- Toggle between the list and the map view
 
 ## How to run locally
 
