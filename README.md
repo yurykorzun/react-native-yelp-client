@@ -19,3 +19,5 @@ Demo React Native app using Yelp GraphQL API
 7. In `.env` configuration file set `YELP_API_KEY` and `GOOGLE_API_KEY`
 8. In `android/app/src/main/AndroidManifest.xml` set your Google API key to `com.google.android.geo.API_KEY`
 9. Run `npx react-native run-android` or  `npx react-native run-ios`
+
+![Yelp Client Gif](https://github.com/yurykorzun/react-native-yelp-client/blob/main/app.gif?raw=true)
